@@ -20,9 +20,9 @@ The data in these files are loaded into the program (movie data stored as nodes 
 2.	SEARCH A MOVIE - To search for a movie entered by the user if it’s in the file
 3.	LIST ALL MOVIES - To print details of all movies stored in the file
 4.	EDIT SERVER - Only admins can enter password to access this operation
-*	UPLOAD A MOVIE - admins can add new movies to the file
-*	DELETE A MOVIE -  admins can delete the movie if it exists in the file
-*	BACK - To go back to the main menu
+   *	UPLOAD A MOVIE - admins can add new movies to the file
+   *	DELETE A MOVIE -  admins can delete the movie if it exists in the file
+   *	BACK - To go back to the main menu
 5.	MOST FREQUENTLY SEARCHED MOVIE - To print the details of the most frequently searched movie
 6.	PLAY HISTORY - To print the movie titles of all the movies that have been played by the user
 7.	LAST PLAYED - To print the last played movie that is in the file
