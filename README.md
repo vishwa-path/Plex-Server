@@ -9,9 +9,9 @@ Frequency and size are calculated for each node during execution. Frequency of s
 Modifications to the data can only be done admins as it’s password protected. 50000 MB of storage is given as the maximum storage capacity of the server, and when more movies are added, empty storage space decreases based on the quality and duration of each movie.
  
 The project also makes use of 3 files:
-●	playhistory.txt - To store the play history after closing the program and storing the values in the play_hist vector during execution
-●	movies.txt - To store all movie details in the file
-●	server.txt - To store the count of movies in the server
+*	playhistory.txt - To store the play history after closing the program and storing the values in the play_hist vector during execution
+*	movies.txt - To store all movie details in the file
+*	server.txt - To store the count of movies in the server
 
 The data in these files are loaded into the program (movie data stored as nodes in the splay tree and it will be splayed such that the root node of the tree before closing the program will be the root of the tree after executing it again) when the program is executed. When the user exits the program, the data gets stored in the respective files before execution stops.
 
