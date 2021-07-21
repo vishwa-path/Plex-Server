@@ -16,16 +16,16 @@ The project also makes use of 3 files:
 The data in these files are loaded into the program (movie data stored as nodes in the splay tree and it will be splayed such that the root node of the tree before closing the program will be the root of the tree after executing it again) when the program is executed. When the user exits the program, the data gets stored in the respective files before execution stops.
 
 ## Functions
-1.	PLAY A MOVIE - To show details and play the movie entered by the user if it’s in the file
-2.	SEARCH A MOVIE - To search for a movie entered by the user if it’s in the file
-3.	LIST ALL MOVIES - To print details of all movies stored in the file
-4.	EDIT SERVER - Only admins can enter password to access this operation
-      -	UPLOAD A MOVIE - admins can add new movies to the file
-      -	DELETE A MOVIE -  admins can delete the movie if it exists in the file
-      -	BACK - To go back to the main menu
-5. MOST FREQUENTLY SEARCHED MOVIE - To print the details of the most frequently searched movie
-6. PLAY HISTORY - To print the movie titles of all the movies that have been played by the user
-7. LAST PLAYED - To print the last played movie that is in the file
-8. SERVER DETAILS - To print the server details including space available in the server
-9. LIST MOVIES OF SAME GENRE - To print details of movies belonging to the genre entered by the user
-10. EXIT - To Exit the program and upload all the data in the splay tree into the files
+1.	**PLAY A MOVIE** - To show details and play the movie entered by the user if it’s in the file
+2.	**SEARCH A MOVIE** - To search for a movie entered by the user if it’s in the file
+3.	**LIST ALL MOVIES** - To print details of all movies stored in the file
+4.	**EDIT SERVER** - Only admins can enter password to access this operation
+      -	***UPLOAD A MOVIE*** - admins can add new movies to the file
+      -	***DELETE A MOVIE*** -  admins can delete the movie if it exists in the file
+      -	***BACK*** - To go back to the main menu
+5. **MOST FREQUENTLY SEARCHED MOVIE** - To print the details of the most frequently searched movie
+6. **PLAY HISTORY** - To print the movie titles of all the movies that have been played by the user
+7. **LAST PLAYED** - To print the last played movie that is in the file
+8. **SERVER DETAILS** - To print the server details including space available in the server
+9. **LIST MOVIES OF SAME GENRE** - To print details of movies belonging to the genre entered by the user
+10. **EXIT** - To Exit the program and upload all the data in the splay tree into the files
